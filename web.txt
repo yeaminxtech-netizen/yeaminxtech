@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noman Editor - Link Hub</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        body {
+            background-color: #bfa193; /* Linktree style warm background */
+            color: #2d2d2d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .profile-container {
+            width: 100%;
+            max-width: 480px;
+            background: #e8d7cd;
+            border-radius: 24px;
+            padding: 30px 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f1f1f;
+            margin-bottom: 5px;
+        }
+        .bio {
+            font-size: 0.95rem;
+            color: #4a4a4a;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .social-icons a {
+            background: #ffffff;
+            color: #2d2d2d;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            background: #2d2d2d;
+            color: #ffffff;
+        }
+        /* Links & Buttons */
+        .link-card {
+            background: #bfa193;
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            display: block;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .link-card:hover {
+            background: #af8f80;
+            transform: translateY(-2px);
+        }
+        footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #6e6e6e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Profile Picture (You can replace the link with your image) -->
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Profile" class="profile-img">
+        
+        <h1>Noman Editor</h1>
+        <p class="bio">🎬 Editing Tips • Tech • AI Tools <br> 🚀 Follow Me For High Quality Content</p>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="mailto:yourmail@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+
+        <!-- Action Links / Prompts / Courses -->
+        <a href="#" class="link-card" target="_blank">🎬 Helicopter Video Prompt</a>
+        <a href="#" class="link-card" target="_blank">✨ Anijam AI Special Link</a>
+        <a href="#" class="link-card" target="_blank">🏡 Dreamy Village Master Prompt</a>
+        <a href="#" class="link-card" target="_blank">🎨 Cartoon Master Prompt</a>
+
+        <footer>
+            <p>&copy; 2026 Noman Editor. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
